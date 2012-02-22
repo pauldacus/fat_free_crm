@@ -24,6 +24,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'factory_girl'
   s.add_dependency 'rails',               '~> 3.2.1'
   s.add_dependency 'prototype-rails'
+  s.add_dependency 'jquery-rails'
+  s.add_dependency 'ajax-chosen-rails',   '~> 0.1.5'
   s.add_dependency 'authlogic',           '~> 3.1.0'
   s.add_dependency 'acts_as_commentable', '~> 3.0.1'
   s.add_dependency 'acts-as-taggable-on', '~> 2.2.1'
@@ -35,4 +37,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'ffaker',              '>= 1.12.0'
   s.add_dependency 'uglifier'
   s.add_dependency 'paper_trail'
+  s.add_dependency 'meta_search'
 end
