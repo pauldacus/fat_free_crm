@@ -37,5 +37,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'ffaker',              '>= 1.12.0'
   s.add_dependency 'uglifier'
   s.add_dependency 'paper_trail'
-  s.add_dependency 'meta_search'
+  s.add_dependency 'ransack'
 end

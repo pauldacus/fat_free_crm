@@ -6,7 +6,7 @@ gem 'jquery-rails'
 gem 'ajax-chosen-rails'
 gem 'simple_form'
 gem 'will_paginate'
-gem 'meta_search'
+gem 'ransack'
 
 gemspec
 
